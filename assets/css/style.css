@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-}
+}   
 
 header{
     padding: 20px 20px;
@@ -11,7 +11,7 @@ header{
 
 
 /* logo and Title */
-figure{
+header>figure{
     height: 80px;
     background-size: contain;
     background-repeat: no-repeat;
@@ -20,7 +20,129 @@ figure{
 
 figure>h1{
     padding-left: 80px;
-    padding-top: 5px;
     font-size: 60px;
     height: 80px;
+    vertical-align: middle;
 }
+
+
+main{
+    background-color: rgb(224, 224, 224);
+    padding-top: 40px;
+}
+
+.container{
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    height: 800px;
+    border-radius: 10px;
+    
+
+}
+
+padding-left{
+    padding-left: 50px;
+}
+
+/* first two buttons of main */
+div button:first-child{
+    margin-left: 50px
+}
+
+button{
+    border:none;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 5px 15px;
+    background-color: white;
+    color: lightgray;
+    margin-top: 20px;
+}
+
+.first-buttons:hover{
+    background-color: rgb(71,173,241);
+}
+
+hr{
+    margin-top: 10px;
+    border-top: 2px solid lightgrey;
+}
+
+/* lists */
+
+h2{
+    margin-top: 40px;
+    padding-left: 50px;
+}
+
+ul{
+    padding-left: 50px;
+    list-style-type: none;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+/* spunta verde */
+li span{
+    color: green;
+    border: 1px solid green;
+    border-radius: 50%;
+    margin-right: 10px;
+    padding-left: 3px;
+}
+
+/* croce rossa */
+.red-cross{
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    margin-right: 10px;
+    padding-left: 3px;
+}
+
+/* generic button */
+ul button{
+    padding: 5px 5px;
+    border-radius: 12px;
+}
+
+/* specific button */
+.button-editorial{
+    color: white;
+    border: none;
+    background-color: rgb(71,173,241);
+}
+
+.button-q1Goal{
+    color: white;
+    border: none;
+    background-color: rgb(159,117,229);
+}
+
+.button-recruiting{
+    color: white;
+    border: none;
+    background-color: rgb(100,192,169);
+}
+
+.button-mobile{
+    color: white;
+    border: none;
+    background-color: rgb(242,158,51);
+}
+
+.button-website{
+    color: white;
+    border: none;
+    background-color: rgb(216,99,161);
+}
+
+.button-sales{
+    color: white;
+    border: none;
+    background-color: rgb(176,201,38);
+}
+
+
